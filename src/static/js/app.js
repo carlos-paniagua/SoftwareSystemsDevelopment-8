@@ -1,13 +1,16 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
-        <Container>
-            <Row>
-                <Col md={{ offset: 3, span: 6 }}>
-                    <TodoListCard />
-                </Col>
-            </Row>
-        </Container>
+        <div>
+            <h1>YTodo App By carlos Paniagua</h1>
+            <Container>
+                <Row>
+                    <Col md={{ offset: 3, span: 6 }}>
+                        <TodoListCard />
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     );
 }
 
