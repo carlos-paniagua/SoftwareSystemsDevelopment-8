@@ -1,16 +1,14 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
-        <div>
-            <h1>Todo App By Carlos Paniagua</h1>
-            <Container>
-                <Row>
-                    <Col md={{ offset: 3, span: 6 }}>
-                        <TodoListCard />
-                    </Col>
-                </Row>
-            </Container>
-        </div>
+        <Container className="text-center">
+            <Row>
+                <Col md={{ offset: 3, span: 6 }}>
+                    <h1>Your Name's ToDo App</h1>
+                    <TodoListCard />
+                </Col>
+            </Row>
+        </Container>
     );
 }
 
